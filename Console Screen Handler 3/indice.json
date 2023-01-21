@@ -1,0 +1,16 @@
+const jsonChecker = require(`${__dirname}/jsonChecker`);
+const extentions = require(`${__dirname}/extentions`);
+const screenBuilder = require(`${__dirname}/screenBuilder`);
+
+module.exports.screenBuilder = (activeScreenName, ...cb) => {
+  extentions.colorTextAndBG();
+
+  if (jsonChecker.check()) {
+    screenBuilder.build(activeScreenName, ...cb);
+  }
+};
+
+module.exports.setScreenJsonLoc = (screenJsonLoc) => {
+  jsonChecker.setScreenJsonLoc(screenJsonLoc);
+  screenBuilder.setScreenJsonLoc(screenJsonLoc);
+};
