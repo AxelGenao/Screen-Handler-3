@@ -1,7 +1,7 @@
 
   {
     "ID": 1,
-    "Titulo": "Formularo",
+    "Titulo": "Formulario",
     "Preguntas": [
       {
         "Texto": "Cual es tu nombre?:",
