@@ -1,0 +1,26 @@
+{
+  "name": "ConsoleApp5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indice.js",
+  "scripts": {
+    "start": "node indice",
+    "test": "echo \"Error\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelGenao/Screen-Handler-3"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/indice.js"
+  },
+  "bugs": {
+    "url": "https://github.com/AxelGenao/Screen-Handler-3/"
+  },
+  "homepage": "https://github.com/AxelGenao/Screen-Handler-3#readme",
+  "dependencies": {
+    "prompt-sync": "^3.0.0"
+  }
+}
